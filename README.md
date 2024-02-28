@@ -39,3 +39,5 @@ luas: Menyimpan informasi tentang luas garasi dalam meter persegi. Tipe data dou
 ### Kelas ParkingLot
 
 kapasitas: Menyimpan informasi tentang kapasitas maksimal kendaraan yang bisa diparkir di tempat parkir. Tipe data integer dipilih karena kapasitas diwakili dalam bentuk angka bulat.
+
+\_vehicles: Menyimpan daftar kendaraan yang diparkir dalam garasi. Digunakan array of object karena garasi bisa menyimpan banyak kendaraan.

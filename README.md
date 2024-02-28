@@ -4,27 +4,38 @@ Saya Muhamad Sabil Fausta NIM 2210142 mengerjakan Latihan 1 dalam mata kuliah De
 
 # Soal
 
-Buatlah program berbasis OOP menggunakan bahasa pemrograman C++ dan Python yang mengimplementasikan konsep inheritance, composition, dan array of object pada kelas-kelas tersebut:
+## Kelas Human
 
-Vehicle : plat nomor, merk, tahun produksi, warna
+nik : Menyimpan identifikasi unik untuk setiap individu. Tipe data yang digunakan adalah String karena NIK biasanya merupakan kombinasi angka yang tetap dan panjangnya konsisten, yang di Indonesia terdiri dari 16 karakter.
 
-Car : jumlah kursi, jumlah pintu
+nama: Menyimpan nama individu. Tipe data String dipilih karena nama adalah urutan karakter.
 
-Motorcycle : jenis motor, kapasitas tangki
+jenis_kelamin: Menyimpan informasi jenis kelamin individu. Tipe data String digunakan karena jenis kelamin diwakili dalam bentuk teks, seperti "Laki-laki" atau "Perempuan".
 
-Garage : nama garasi, luas garasi, daftar kendaraan
+alamat: Menyimpan alamat individu. String digunakan karena alamat diwakili sebagai urutan karakter dan kalimat.
 
-ParkingLot : kapasitas, jumlah kendaraan saat ini
+email: Menyimpan alamat email individu. Tipe data String dipilih karena email merupakan urutan karakter yang mengikuti format spesifik.
 
-Note :
-Boleh menambahkan properti/atribut baru
+## Kelas Car (extends Vehicle)
 
-Tampilkan data selengkap-lengkapnya dalam bentuk list/tabel
+jumlah_kursi: Menyimpan informasi tentang jumlah kursi dalam mobil. Tipe data integer dipilih karena jumlah kursi diwakili dalam bentuk angka bulat.
 
-Program dikumpulkan pada repository GitHub yang dibuat public dengan nama “LP1DPBO2024C…”
+jumlah_pintu: Menyimpan informasi tentang jumlah pintu dalam mobil. Tipe data integer digunakan karena jumlah pintu diwakili dalam bentuk angka bulat.
 
-Hanya program pada branch Main yang akan dinilai dan diperiksa
+## Kelas Motorcycle (extends Vehicle)
 
-Jika waktu pengumpulan sudah habis dan ingin mengupdate kode program, update pada branch lain karena mengupdate branch Main setelah waktu pengumpulan terlewat maka program tidak akan dinilai
+tipe_motor: Menyimpan informasi tentang tipe motor. Tipe data String digunakan karena tipe motor sering kali diwakili dalam kombinasi angka dan huruf atau hanya teks.
 
-File README berisi desain program, penjelasan alur, dan dokumentasi saat program dijalankan (screenshot/screen record, pilih salah satu bahasa sebagai contoh)
+kapasitas_tangki: Menyimpan informasi tentang kapasitas tangki bahan bakar motor dalam liter. Tipe data double dipilih karena kapasitas tangki bisa memiliki komponen desimal.
+
+## Kelas Garage
+
+nama: Menyimpan nama dari garasi. Tipe data String digunakan karena nama garasi diwakili sebagai urutan karakter.
+
+luas: Menyimpan informasi tentang luas garasi dalam meter persegi. Tipe data double dipilih karena luas garasi bisa memiliki komponen desimal untuk presisi.
+
+\_vehicles: Menyimpan daftar kendaraan yang diparkir dalam garasi. Digunakan array of object karena garasi bisa menyimpan banyak kendaraan.
+
+## Kelas ParkingLot
+
+kapasitas: Menyimpan informasi tentang kapasitas maksimal kendaraan yang bisa diparkir di tempat parkir. Tipe data integer dipilih karena kapasitas diwakili dalam bentuk angka bulat.

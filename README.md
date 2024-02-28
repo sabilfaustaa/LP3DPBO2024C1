@@ -4,7 +4,7 @@ Saya Muhamad Sabil Fausta NIM 2210142 mengerjakan Latihan 1 dalam mata kuliah De
 
 # Soal
 
-## Kelas Human
+### Kelas Human
 
 nik : Menyimpan identifikasi unik untuk setiap individu. Tipe data yang digunakan adalah String karena NIK biasanya merupakan kombinasi angka yang tetap dan panjangnya konsisten, yang di Indonesia terdiri dari 16 karakter.
 
@@ -16,19 +16,19 @@ alamat: Menyimpan alamat individu. String digunakan karena alamat diwakili sebag
 
 email: Menyimpan alamat email individu. Tipe data String dipilih karena email merupakan urutan karakter yang mengikuti format spesifik.
 
-## Kelas Car (extends Vehicle)
+### Kelas Car (extends Vehicle)
 
 jumlah_kursi: Menyimpan informasi tentang jumlah kursi dalam mobil. Tipe data integer dipilih karena jumlah kursi diwakili dalam bentuk angka bulat.
 
 jumlah_pintu: Menyimpan informasi tentang jumlah pintu dalam mobil. Tipe data integer digunakan karena jumlah pintu diwakili dalam bentuk angka bulat.
 
-## Kelas Motorcycle (extends Vehicle)
+### Kelas Motorcycle (extends Vehicle)
 
 tipe_motor: Menyimpan informasi tentang tipe motor. Tipe data String digunakan karena tipe motor sering kali diwakili dalam kombinasi angka dan huruf atau hanya teks.
 
 kapasitas_tangki: Menyimpan informasi tentang kapasitas tangki bahan bakar motor dalam liter. Tipe data double dipilih karena kapasitas tangki bisa memiliki komponen desimal.
 
-## Kelas Garage
+### Kelas Garage
 
 nama: Menyimpan nama dari garasi. Tipe data String digunakan karena nama garasi diwakili sebagai urutan karakter.
 
@@ -36,6 +36,6 @@ luas: Menyimpan informasi tentang luas garasi dalam meter persegi. Tipe data dou
 
 \_vehicles: Menyimpan daftar kendaraan yang diparkir dalam garasi. Digunakan array of object karena garasi bisa menyimpan banyak kendaraan.
 
-## Kelas ParkingLot
+### Kelas ParkingLot
 
 kapasitas: Menyimpan informasi tentang kapasitas maksimal kendaraan yang bisa diparkir di tempat parkir. Tipe data integer dipilih karena kapasitas diwakili dalam bentuk angka bulat.

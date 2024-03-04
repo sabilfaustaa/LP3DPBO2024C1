@@ -47,6 +47,7 @@ kapasitas: Menyimpan informasi tentang kapasitas maksimal kendaraan yang bisa di
 # Alur Program
 
 ![alt text](<tambah garasi 1.png>)
+
 Dalam program ini, saya mulai dengan mendeklarasikan dua tempat penyimpanan kendaraan: sebuah Garage bernama garasiKopma dengan kapasitas 200 kendaraan, dan sebuah ParkingLot dengan kapasitas 100 kendaraan.
 
 Kemudian, saya membuat tiga objek Human yang masing-masing mewakili pemilik kendaraan, dengan informasi unik seperti NIK, nama, jenis kelamin, alamat, dan email.

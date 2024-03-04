@@ -2,7 +2,9 @@
 
 Saya Muhamad Sabil Fausta NIM 2210142 mengerjakan Latihan 3 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
-# Soal
+# Desain Kelas Program
+
+![alt text](image.png)
 
 ### Kelas Human
 
@@ -41,3 +43,22 @@ luas: Menyimpan informasi tentang luas garasi dalam meter persegi. Tipe data dou
 kapasitas: Menyimpan informasi tentang kapasitas maksimal kendaraan yang bisa diparkir di tempat parkir. Tipe data integer dipilih karena kapasitas diwakili dalam bentuk angka bulat.
 
 \_vehicles: Menyimpan daftar kendaraan yang diparkir dalam garasi. Digunakan array of object karena garasi bisa menyimpan banyak kendaraan.
+
+# Alur Program
+
+![alt text](<tambah garasi 1.png>)
+Dalam program ini, saya mulai dengan mendeklarasikan dua tempat penyimpanan kendaraan: sebuah Garage bernama garasiKopma dengan kapasitas 200 kendaraan, dan sebuah ParkingLot dengan kapasitas 100 kendaraan.
+
+Kemudian, saya membuat tiga objek Human yang masing-masing mewakili pemilik kendaraan, dengan informasi unik seperti NIK, nama, jenis kelamin, alamat, dan email.
+
+Selanjutnya, saya menginisialisasi dua vector, satu untuk menyimpan pointer ke objek Car dan satu lagi untuk objek Motorcycle. Saya membuat enam objek Car dan dua objek Motorcycle, masing-masing dengan atribut spesifik seperti plat nomor, merk, tahun produksi, warna, dan pemilik. Untuk Car, saya juga menentukan jumlah kursi dan jumlah pintu, sedangkan untuk Motorcycle, saya menentukan tipe motor dan kapasitas tangki.
+
+Setelah itu, saya menggunakan loop for untuk memarkir semua mobil dan motor yang telah saya buat ke dalam garasiKopma. Ini dilakukan dengan memanggil metode parkirKendaraan pada objek garasiKopma, yang menambahkan kendaraan ke dalam koleksi kendaraan di garasi.
+
+![alt text](<tambah parking lot.png>)
+
+Selanjutnya, saya memindahkan tiga kendaraan dari garasiKopma ke ParkingLot. Saya menggunakan variabel isParkingFull untuk mengecek apakah parking lot sudah penuh dan variabel movedVehicles untuk menghitung jumlah kendaraan yang telah dipindahkan. Saya hanya memindahkan kendaraan jika parking lot belum penuh dan kurang dari tiga kendaraan telah dipindahkan. Setiap kali sebuah kendaraan berhasil dipindahkan, saya menampilkan plat nomor kendaraan tersebut dan meningkatkan movedVehicles. Jika parking lot penuh, saya menandainya dengan isParkingFull.
+
+![alt text](<data setelah pemindahan.png>)
+
+Setelah proses pemindahan, saya menampilkan daftar kendaraan di parking lot dengan cara yang sama seperti sebelumnya, diikuti oleh daftar kendaraan yang tersisa di garasi setelah pemindahan.

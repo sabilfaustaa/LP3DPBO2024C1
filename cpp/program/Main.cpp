@@ -72,7 +72,7 @@ int main() {
     int movedVehicles = 0;
 
     for (auto vehicle : garasiKopma.getVehicles()) {
-        if (!isParkingFull && movedVehicles < 3) {
+        if (!isParkingFull && movedVehicles < 3) { // pindahin hanya 3 ker parking lot
             if (garasiKopma.keluarkanKendaraan(vehicle)) {
                 parkingLot.parkirKendaraan(vehicle);
                 cout << vehicle->getPlatNomor() << " Telah Dipindahkan ke Parking Lot." << endl;
